@@ -1,0 +1,644 @@
+/* the background is created with help of gradients examples and online gradient generators. */
+html {
+    height: 100%;
+}
+body{
+    background-image: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.11) 0px,
+                    rgba(0, 0, 0, 0.11) 12px, rgba(1, 1, 1, 0.16) 12px,rgba(1, 1, 1, 0.16) 24px, rgba(0, 0, 0, 0.14) 24px,rgba(0, 0, 0, 0.14) 36px, rgba(0, 0, 0, 0.23) 36px, 
+                    rgba(0, 0, 0, 0.23) 48px, rgba(0, 0, 0, 0.12) 48px,rgba(0, 0, 0, 0.12) 60px, rgba(1, 1, 1, 0.07) 60px,rgba(1, 1, 1, 0.07) 72px, rgba(0, 0, 0, 0.21) 72px, 
+                    rgba(0, 0, 0, 0.21) 84px, rgba(0, 0, 0, 0.24) 84px,rgba(0, 0, 0, 0.24) 96px, rgba(1, 1, 1, 0.23) 96px,rgba(1, 1, 1, 0.23) 108px, rgba(1, 1, 1, 0.07) 108px, 
+                    rgba(1, 1, 1, 0.07) 120px, rgba(0, 0, 0, 0.01) 120px,rgba(0, 0, 0, 0.01) 132px, rgba(1, 1, 1, 0.22) 132px,rgba(1, 1, 1, 0.22) 144px, rgba(1, 1, 1, 0.24) 144px, 
+                    rgba(1, 1, 1, 0.24) 156px, rgba(0, 0, 0, 0) 156px,rgba(0, 0, 0, 0) 168px, rgba(0, 0, 0, 0.12) 168px,rgba(0, 0, 0, 0.12) 180px), repeating-linear-gradient(90deg, rgba(1, 1, 1, 0.01) 0px,
+                    rgba(1, 1, 1, 0.01) 12px, rgba(1, 1, 1, 0.15) 12px, rgba(1, 1, 1, 0.15) 24px,rgba(0, 0, 0, 0.09) 24px, rgba(0, 0, 0, 0.09) 36px, rgba(0, 0, 0, 0.02) 36px, 
+                    rgba(0, 0, 0, 0.02) 48px, rgba(0, 0, 0, 0.1) 48px, rgba(0, 0, 0, 0.1) 60px, rgba(1, 1, 1, 0.07) 60px, rgba(1, 1, 1, 0.07) 72px, rgba(1, 1, 1, 0.15) 72px, 
+                    rgba(1, 1, 1, 0.15) 84px, rgba(0, 0, 0, 0.18) 84px, rgba(0, 0, 0, 0.18) 96px, rgba(1, 1, 1, 0.15) 96px, rgba(1, 1, 1, 0.15) 108px, rgba(1, 1, 1, 0.09) 108px, 
+                    rgba(1, 1, 1, 0.09) 120px, rgba(1, 1, 1, 0.07) 120px, rgba(1, 1, 1, 0.07) 132px, rgba(1, 1, 1, 0.05) 132px, rgba(1, 1, 1, 0.05) 144px, rgba(0, 0, 0, 0.1) 144px,
+                    rgba(0, 0, 0, 0.1) 156px, rgba(1, 1, 1, 0.18) 156px, rgba(1, 1, 1, 0.18) 168px), repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.24) 0px, rgba(0, 0, 0, 0.24) 16px, 
+                    rgba(1, 1, 1, 0.06) 16px, rgba(1, 1, 1, 0.06) 32px, rgba(0, 0, 0, 0.16) 32px, rgba(0, 0, 0, 0.16) 48px, rgba(1, 1, 1, 0) 48px, rgba(1, 1, 1, 0) 64px, 
+                    rgba(1, 1, 1, 0.12) 64px, rgba(1, 1, 1, 0.12) 80px, rgba(1, 1, 1, 0.22) 80px, rgba(1, 1, 1, 0.22) 96px, rgba(0, 0, 0, 0.24) 96px, rgba(0, 0, 0, 0.24) 112px, 
+                    rgba(0, 0, 0, 0.25) 112px, rgba(0, 0, 0, 0.25) 128px, rgba(1, 1, 1, 0.12) 128px, rgba(1, 1, 1, 0.12) 144px, rgba(0, 0, 0, 0.18) 144px, rgba(0, 0, 0, 0.18) 160px, 
+                    rgba(1, 1, 1, 0.03) 160px, rgba(1, 1, 1, 0.03) 176px, rgba(1, 1, 1, 0.1) 176px, rgba(1, 1, 1, 0.1) 192px), repeating-linear-gradient(135deg, rgba(1, 1, 1, 0.18) 0px, 
+                    rgba(1, 1, 1, 0.18) 3px, rgba(0, 0, 0, 0.09) 3px, rgba(0, 0, 0, 0.09) 6px, rgba(0, 0, 0, 0.08) 6px, rgba(0, 0, 0, 0.08) 9px, rgba(1, 1, 1, 0.05) 9px, rgba(1, 1, 1, 0.05) 12px, 
+                    rgba(0, 0, 0, 0.01) 12px, rgba(0, 0, 0, 0.01) 15px, rgba(1, 1, 1, 0.12) 15px, rgba(1, 1, 1, 0.12) 18px, rgba(0, 0, 0, 0.05) 18px, rgba(0, 0, 0, 0.05) 21px, rgba(1, 1, 1, 0.16) 21px, 
+                    rgba(1, 1, 1, 0.16) 24px, rgba(1, 1, 1, 0.07) 24px, rgba(1, 1, 1, 0.07) 27px, rgba(1, 1, 1, 0.23) 27px, rgba(1, 1, 1, 0.23) 30px, rgba(0, 0, 0, 0.2) 30px, rgba(0, 0, 0, 0.2) 33px, 
+                    rgba(0, 0, 0, 0.18) 33px, rgba(0, 0, 0, 0.18) 36px, rgba(1, 1, 1, 0.12) 36px, rgba(1, 1, 1, 0.12) 39px, rgba(1, 1, 1, 0.13) 39px, rgba(1, 1, 1, 0.13) 42px, rgba(1, 1, 1, 0.2) 42px, 
+                    rgba(1, 1, 1, 0.2) 45px, rgba(1, 1, 1, 0.18) 45px, rgba(1, 1, 1, 0.18) 48px, rgba(0, 0, 0, 0.2) 48px, rgba(0, 0, 0, 0.2) 51px, rgba(1, 1, 1, 0) 51px, rgba(1, 1, 1, 0) 54px, rgba(0, 0, 0, 0.03) 54px,
+                    rgba(0, 0, 0, 0.03) 57px, rgba(1, 1, 1, 0.06) 57px, rgba(1, 1, 1, 0.06) 60px, rgba(1, 1, 1, 0) 60px, rgba(1, 1, 1, 0) 63px, rgba(0, 0, 0, 0.1) 63px, rgba(0, 0, 0, 0.1) 66px, rgba(1, 1, 1, 0.19) 66px, 
+                    rgba(1, 1, 1, 0.19) 69px), linear-gradient(90deg, rgb(239, 53, 115), rgb(79, 2, 93));
+    user-select: none;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img {
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 560px;
+    right: 0;
+    margin: auto;
+}
+.in {
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: 60px;
+    padding: 20px;
+    top: 230px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+h1 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 50px;
+    top: -140px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    color: peru;
+    text-shadow: 0.5px 0.5px black,
+                 1px   1px   black,
+                 1.5px 1.5px black,
+                 2px   2px   black,
+                 2.5px 2.5px black,
+                 3px   3px   black,
+                 3.5px 3.5px black,
+                 4px   4px   black,
+                 4.5px 4.5px black,
+                 5px   5px   black,
+                 5.5px 5.5px black,
+                 10px 8px 8px black;
+}
+#pass {
+    position: absolute;
+    background-color: silver;
+    width: 300px;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 50px;
+    outline: none;
+    left: 100px;
+}
+.sub {
+    position: absolute;
+    background-color: silver;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    top: 200px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    margin: auto;
+}
+  
+.sub:hover {
+    background-color: seagreen;
+    color: white;
+}
+p {
+    position: absolute;
+    top: 480px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    letter-spacing: 5px;
+    width: 500px;
+    height: 150px;
+}
+.low {
+    color: orange;
+    text-shadow: 0.5px 0.5px orangered,
+                 1px   1px   orangered,
+                 1.5px 1.5px orangered,
+                 2px   2px   orangered,
+                 2.5px 2.5px orangered,
+                 3px   3px   orangered,
+                 3.5px 3.5px orangered,
+                 4px   4px   orangered,
+                 5px 8px 8px black;
+}
+.strong {
+    color: lawngreen;
+    text-shadow: 0.5px 0.5px green,
+                 1px   1px   green,
+                 1.5px 1.5px green,
+                 2px   2px   green,
+                 2.5px 2.5px green,
+                 3px   3px   green,
+                 3.5px 3.5px green,
+                 4px   4px   green,
+                 5px 8px 8px black;
+}
+.good {
+    color: cyan;
+    text-shadow: 0.5px 0.5px cornflowerblue,
+                 1px   1px   cornflowerblue,
+                 1.5px 1.5px cornflowerblue,
+                 2px   2px   cornflowerblue,
+                 2.5px 2.5px cornflowerblue,
+                 3px   3px   cornflowerblue,
+                 3.5px 3.5px cornflowerblue,
+                 4px   4px   cornflowerblue,
+                 5px 8px 8px black;
+}
+.wrong {
+    color: orangered;
+    text-shadow: 0.5px 0.5px red,
+                 1px   1px   red,
+                 1.5px 1.5px red,
+                 2px   2px   red,
+                 2.5px 2.5px red,
+                 3px   3px   red,
+                 3.5px 3.5px red,
+                 4px   4px   red,
+                 5px 8px 8px black;
+}
+.tog {
+    position: absolute;
+    background-color: silver;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition-duration: 0.4s;
+    outline: none;
+    cursor: pointer;
+    top: -2px;
+    left: 350px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.tog:hover {
+    background-color: blueviolet;
+    color: white;
+}
+@media only screen and (max-width: 580px) {
+    .in {
+        position: relative;
+        text-align: center;
+        top: 190px;
+        width: 400px;
+        height: 60px;
+    }
+    h1 {
+        position: absolute;
+        top: -80px;
+        left: 0px;
+        font-size: 40px;
+    }
+    #pass {
+        position: absolute;
+        width: 250px;
+        font-size: 20px;
+        height: 45px;
+        left: 70px;
+    }
+    .sub {
+        position: absolute;
+        top: 170px;
+        left: 0px;
+    }
+    .tog {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+        border-radius: 16px;
+        left: 280px;
+        top: -7px;
+    }
+    p {
+        position: absolute;
+        font-size: 35px;
+        overflow: hidden;
+        top: 500px;
+        left: 0px;
+        width: 300px;
+        height: 150px;
+    }
+    .low {
+        color: orange;
+        text-shadow: 0.5px 0.5px orangered,
+                     1px   1px   orangered,
+                     1.5px 1.5px orangered,
+                     2px   2px   orangered,
+                     2.5px 2.5px orangered,
+                     3px   3px   orangered,
+                     5px 8px 8px black;
+    }
+    .strong {
+        color: lawngreen;
+        text-shadow: 0.5px 0.5px green,
+                     1px   1px   green,
+                     1.5px 1.5px green,
+                     2px   2px   green,
+                     2.5px 2.5px green,
+                     3px   3px   green,
+                     5px 8px 8px black;
+    }
+    .good {
+        color: cyan;
+        text-shadow: 0.5px 0.5px cornflowerblue,
+                     1px   1px   cornflowerblue,
+                     1.5px 1.5px cornflowerblue,
+                     2px   2px   cornflowerblue,
+                     2.5px 2.5px cornflowerblue,
+                     3px   3px   cornflowerblue,
+                     5px 8px 8px black;
+    }
+    .wrong {
+        color: orangered;
+        text-shadow: 0.5px 0.5px red,
+                     1px   1px   red,
+                     1.5px 1.5px red,
+                     2px   2px   red,
+                     2.5px 2.5px red,
+                     3px   3px   red,
+                     5px 8px 8px black;
+    }
+    img {
+        top: 480px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .in {
+        position: relative;
+        text-align: center;
+        top: 190px;
+        width: 300px;
+        height: 60px;
+    }
+    h1 {
+        position: absolute;
+        top: -80px;
+        left: 0px;
+        font-size: 30px;
+    }
+    #pass {
+        position: absolute;
+        width: 200px;
+        font-size: 20px;
+        height: 40px;
+        left: 50px;
+    }
+    .sub {
+        position: absolute;
+        width: 130px;
+        height: 40px;
+        padding: 4px 0 0 0;
+        text-align: center;
+        font-size: 22px;
+        top: 170px;
+        left: 0px;
+    }
+    .tog {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+        border-radius: 16px;
+        left: 240px;
+        top: -7px;
+    }
+    p {
+        position: absolute;
+        font-size: 30px;
+        overflow: hidden;
+        top: 500px;
+        left: 0px;
+        width: 300px;
+        height: 150px;
+    }
+    img {
+        top: 480px;
+    }
+    .low {
+        color: orange;
+        text-shadow: 0.5px 0.5px orangered,
+                     1px   1px   orangered,
+                     1.5px 1.5px orangered,
+                     2px   2px   orangered,
+                     2.5px 2.5px orangered,
+                     3px   3px   orangered,
+                     5px 8px 8px black;
+    }
+    .strong {
+        color: lawngreen;
+        text-shadow: 0.5px 0.5px green,
+                     1px   1px   green,
+                     1.5px 1.5px green,
+                     2px   2px   green,
+                     2.5px 2.5px green,
+                     3px   3px   green,
+                     5px 8px 8px black;
+    }
+    .good {
+        color: cyan;
+        text-shadow: 0.5px 0.5px cornflowerblue,
+                     1px   1px   cornflowerblue,
+                     1.5px 1.5px cornflowerblue,
+                     2px   2px   cornflowerblue,
+                     2.5px 2.5px cornflowerblue,
+                     3px   3px   cornflowerblue,
+                     5px 8px 8px black;
+    }
+    .wrong {
+        color: orangered;
+        text-shadow: 0.5px 0.5px red,
+                     1px   1px   red,
+                     1.5px 1.5px red,
+                     2px   2px   red,
+                     2.5px 2.5px red,
+                     3px   3px   red,
+                     5px 8px 8px black;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .in {
+        position: relative;
+        text-align: center;
+        top: 190px;
+        width: 250px;
+        height: 60px;
+    }
+    h1 {
+        position: absolute;
+        top: -80px;
+        left: -3px;
+        font-size: 24px;
+    }
+    #pass {
+        position: absolute;
+        width: 180px;
+        font-size: 20px;
+        height: 35px;
+        left: 30px;
+    }
+    .sub {
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        padding: 0 0 1px 0;
+        text-align: center;
+        font-size: 20px;
+        top: 130px;
+        left: 0px;
+    }
+    .tog {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        padding: 0 0 1px 0;
+        font-size: 20px;
+        border-radius: 13px;
+        left: 200px;
+        top: -15px;
+    }
+    p {
+        position: absolute;
+        font-size: 20px;
+        overflow: hidden;
+        top: 500px;
+        left: 0px;
+        width: 200px;
+        height: 150px;
+    }
+    img {
+        top: 460px;
+    }
+    .low {
+        color: orange;
+        text-shadow: 0.5px 0.5px orangered,
+                     1px   1px   orangered,
+                     1.5px 1.5px orangered,
+                     2px   2px   orangered,
+                     5px 8px 8px black;
+    }
+    .strong {
+        color: lawngreen;
+        text-shadow: 0.5px 0.5px green,
+                     1px   1px   green,
+                     1.5px 1.5px green,
+                     2px   2px   green,
+                     5px 8px 8px black;
+    }
+    .good {
+        color: cyan;
+        text-shadow: 0.5px 0.5px cornflowerblue,
+                     1px   1px   cornflowerblue,
+                     1.5px 1.5px cornflowerblue,
+                     2px   2px   cornflowerblue,
+                     5px 8px 8px black;
+    }
+    .wrong {
+        color: orangered;
+        text-shadow: 0.5px 0.5px red,
+                     1px   1px   red,
+                     1.5px 1.5px red,
+                     2px   2px   red,
+                     5px 8px 8px black;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .in {
+        position: relative;
+        text-align: center;
+        top: 190px;
+        width: 220px;
+        height: 60px;
+    }
+    h1 {
+        position: absolute;
+        top: -80px;
+        left: -3px;
+        font-size: 20px;
+    }
+    #pass {
+        position: absolute;
+        width: 120px;
+        font-size: 13px;
+        height: 30px;
+        left: 60px;
+    }
+    .sub {
+        position: absolute;
+        width: 85px;
+        height: 34px;
+        padding: 1px 0 0 0;
+        text-align: center;
+        font-size: 15px;
+        top: 130px;
+        left: 0px;
+    }
+    .tog {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        padding: 0 0 1px 0;
+        font-size: 15px;
+        border-radius: 13px;
+        left: 160px;
+        top: -23px;
+    }
+    p {
+        position: absolute;
+        font-size: 20px;
+        overflow: hidden;
+        top: 500px;
+        left: 10px;
+        width: 200px;
+        height: 150px;
+    }
+    img {
+        top: 460px;
+    }
+    .low {
+        color: orange;
+        text-shadow: 0.5px 0.5px orangered,
+                     1px   1px   orangered,
+                     1.5px 1.5px orangered,
+                     2px   2px   orangered,
+                     5px 8px 8px black;
+    }
+    .strong {
+        color: lawngreen;
+        text-shadow: 0.5px 0.5px green,
+                     1px   1px   green,
+                     1.5px 1.5px green,
+                     2px   2px   green,
+                     5px 8px 8px black;
+    }
+    .good {
+        color: cyan;
+        text-shadow: 0.5px 0.5px cornflowerblue,
+                     1px   1px   cornflowerblue,
+                     1.5px 1.5px cornflowerblue,
+                     2px   2px   cornflowerblue,
+                     5px 8px 8px black;
+    }
+    .wrong {
+        color: orangered;
+        text-shadow: 0.5px 0.5px red,
+                     1px   1px   red,
+                     1.5px 1.5px red,
+                     2px   2px   red,
+                     5px 8px 8px black;
+    }
+}
+@media only screen and (max-width: 260px) {
+    .in {
+        position: relative;
+        text-align: center;
+        top: 190px;
+        width: 100px;
+        height: 60px;
+    }
+    h1 {
+        position: absolute;
+        top: -80px;
+        left: -3px;
+        font-size: 15px;
+    }
+    #pass {
+        position: absolute;
+        width: 80px;
+        font-size: 11px;
+        height: 23px;
+        left: 10px;
+    }
+    .sub {
+        position: absolute;
+        width: 70px;
+        height: 30px;
+        padding: 1px 0 0 0;
+        text-align: center;
+        font-size: 13px;
+        top: 130px;
+        left: 0px;
+    }
+    .tog {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        padding: 0 0 1px 0;
+        font-size: 12px;
+        border-radius: 10px;
+        left: 100px;
+        top: -28px;
+    }
+    p {
+        position: absolute;
+        font-size: 15px;
+        overflow: hidden;
+        top: 500px;
+        left: 10px;
+        width: 160px;
+        height: 150px;
+    }
+    .low {
+        color: orange;
+        text-shadow: 0.5px 0.5px orangered,
+                     1px   1px   orangered,
+                     1.5px 1.5px orangered,
+                     2px   2px   orangered,
+                     5px 8px 8px black;
+    }
+    .strong {
+        color: lawngreen;
+        text-shadow: 0.5px 0.5px green,
+                     1px   1px   green,
+                     1.5px 1.5px green,
+                     2px   2px   green,
+                     5px 8px 8px black;
+    }
+    .good {
+        color: cyan;
+        text-shadow: 0.5px 0.5px cornflowerblue,
+                     1px   1px   cornflowerblue,
+                     1.5px 1.5px cornflowerblue,
+                     2px   2px   cornflowerblue,
+                     5px 8px 8px black;
+    }
+    .wrong {
+        color: orangered;
+        text-shadow: 0.5px 0.5px red,
+                     1px   1px   red,
+                     1.5px 1.5px red,
+                     2px   2px   red,
+                     5px 8px 8px black;
+    }
+    img {
+        top: 460px;
+    }
+}
