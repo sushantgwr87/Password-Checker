@@ -1,9 +1,9 @@
 var s="Low";
-var x = document.getElementById("pass");
+var x = document.getElementById("password_input");
 var y = document.getElementById("icon");
-var z = document.getElementById('res');
+var z = document.getElementById('result');
 y.innerHTML += `<i class="fa fa-eye-slash"></i>`;
-function my(){
+function password_submitted(){
     z.className = '';
     var count=0;
     z.innerHTML = "";
@@ -44,14 +44,14 @@ function test(c){
     }
     if(c<3){
         s="WEAK";
-        z.classList.add("low");
+        z.classList.add("weak");
     }
     c=0;
     z.innerHTML += s;
 }
 
 document.addEventListener("click", function(evt) {
-    var k = document.getElementById('sub');
+    var k = document.getElementById('submit');
         targetElement = evt.target;
     do {
         if (targetElement == x) {
