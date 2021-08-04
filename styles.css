@@ -41,7 +41,7 @@ img {
     right: 0;
     margin: auto;
 }
-.in {
+.input {
     position: relative;
     text-align: center;
     width: 500px;
@@ -76,7 +76,7 @@ h1 {
                  5.5px 5.5px black,
                  10px 8px 8px black;
 }
-#pass {
+#password_input {
     position: absolute;
     background-color: silver;
     width: 300px;
@@ -88,7 +88,7 @@ h1 {
     outline: none;
     left: 100px;
 }
-.sub {
+.submit {
     position: absolute;
     background-color: silver;
     border: 2px solid black;
@@ -111,7 +111,7 @@ h1 {
     margin: auto;
 }
   
-.sub:hover {
+.submit:hover {
     background-color: seagreen;
     color: white;
 }
@@ -131,7 +131,7 @@ p {
     width: 500px;
     height: 150px;
 }
-.low {
+.weak {
     color: orange;
     text-shadow: 0.5px 0.5px orangered,
                  1px   1px   orangered,
@@ -179,7 +179,7 @@ p {
                  4px   4px   red,
                  5px 8px 8px black;
 }
-.tog {
+.toggle {
     position: absolute;
     background-color: silver;
     width: 50px;
@@ -199,12 +199,12 @@ p {
     right: 0;
     margin: auto;
 }
-.tog:hover {
+.toggle:hover {
     background-color: blueviolet;
     color: white;
 }
 @media only screen and (max-width: 580px) {
-    .in {
+    .input {
         position: relative;
         text-align: center;
         top: 190px;
@@ -217,19 +217,19 @@ p {
         left: 0px;
         font-size: 40px;
     }
-    #pass {
+    #password_input {
         position: absolute;
         width: 250px;
         font-size: 20px;
         height: 45px;
         left: 70px;
     }
-    .sub {
+    .submit {
         position: absolute;
         top: 170px;
         left: 0px;
     }
-    .tog {
+    .toggle {
         position: absolute;
         width: 40px;
         height: 40px;
@@ -247,7 +247,7 @@ p {
         width: 300px;
         height: 150px;
     }
-    .low {
+    .weak {
         color: orange;
         text-shadow: 0.5px 0.5px orangered,
                      1px   1px   orangered,
@@ -292,7 +292,7 @@ p {
     }
 }
 @media only screen and (max-width: 470px) {
-    .in {
+    .input {
         position: relative;
         text-align: center;
         top: 190px;
@@ -305,14 +305,14 @@ p {
         left: 0px;
         font-size: 30px;
     }
-    #pass {
+    #password_input {
         position: absolute;
         width: 200px;
         font-size: 20px;
         height: 40px;
         left: 50px;
     }
-    .sub {
+    .submit {
         position: absolute;
         width: 130px;
         height: 40px;
@@ -322,7 +322,7 @@ p {
         top: 170px;
         left: 0px;
     }
-    .tog {
+    .toggle {
         position: absolute;
         width: 40px;
         height: 40px;
@@ -343,7 +343,7 @@ p {
     img {
         top: 480px;
     }
-    .low {
+    .weak {
         color: orange;
         text-shadow: 0.5px 0.5px orangered,
                      1px   1px   orangered,
@@ -385,7 +385,7 @@ p {
     }
 }
 @media only screen and (max-width: 380px) {
-    .in {
+    .input {
         position: relative;
         text-align: center;
         top: 190px;
@@ -398,14 +398,14 @@ p {
         left: -3px;
         font-size: 24px;
     }
-    #pass {
+    #password_input {
         position: absolute;
         width: 180px;
         font-size: 20px;
         height: 35px;
         left: 30px;
     }
-    .sub {
+    .submit {
         position: absolute;
         width: 100px;
         height: 40px;
@@ -415,7 +415,7 @@ p {
         top: 130px;
         left: 0px;
     }
-    .tog {
+    .toggle {
         position: absolute;
         width: 35px;
         height: 35px;
@@ -437,7 +437,7 @@ p {
     img {
         top: 460px;
     }
-    .low {
+    .weak {
         color: orange;
         text-shadow: 0.5px 0.5px orangered,
                      1px   1px   orangered,
@@ -471,7 +471,7 @@ p {
     }
 }
 @media only screen and (max-width: 300px) {
-    .in {
+    .input {
         position: relative;
         text-align: center;
         top: 190px;
@@ -484,14 +484,14 @@ p {
         left: -3px;
         font-size: 20px;
     }
-    #pass {
+    #password_input {
         position: absolute;
         width: 120px;
         font-size: 13px;
         height: 30px;
         left: 60px;
     }
-    .sub {
+    .submit {
         position: absolute;
         width: 85px;
         height: 34px;
@@ -501,7 +501,7 @@ p {
         top: 130px;
         left: 0px;
     }
-    .tog {
+    .toggle {
         position: absolute;
         width: 30px;
         height: 30px;
@@ -523,7 +523,7 @@ p {
     img {
         top: 460px;
     }
-    .low {
+    .weak {
         color: orange;
         text-shadow: 0.5px 0.5px orangered,
                      1px   1px   orangered,
@@ -557,7 +557,7 @@ p {
     }
 }
 @media only screen and (max-width: 260px) {
-    .in {
+    .input {
         position: relative;
         text-align: center;
         top: 190px;
@@ -570,14 +570,14 @@ p {
         left: -3px;
         font-size: 15px;
     }
-    #pass {
+    #password_input {
         position: absolute;
         width: 80px;
         font-size: 11px;
         height: 23px;
         left: 10px;
     }
-    .sub {
+    .submit {
         position: absolute;
         width: 70px;
         height: 30px;
@@ -587,7 +587,7 @@ p {
         top: 130px;
         left: 0px;
     }
-    .tog {
+    .toggle {
         position: absolute;
         width: 25px;
         height: 25px;
@@ -606,7 +606,7 @@ p {
         width: 160px;
         height: 150px;
     }
-    .low {
+    .weak {
         color: orange;
         text-shadow: 0.5px 0.5px orangered,
                      1px   1px   orangered,
