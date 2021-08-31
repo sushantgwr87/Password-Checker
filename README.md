@@ -1,3 +1,11 @@
+<p align="center">
+    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" height="28">
+    &nbsp; &nbsp; 
+    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3" alt="CSS" height="28">
+    &nbsp; &nbsp; 
+    <img src="https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript" alt="Javascript" height="30">
+</p>
+
 # Password Checker
 
 A web page to check the strength of your password using regex in javascript.
