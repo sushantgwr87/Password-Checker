@@ -41,7 +41,7 @@ img {
     right: 0;
     margin: auto;
 }
-.input {
+.inputBlock {
     position: relative;
     text-align: center;
     width: 500px;
@@ -76,7 +76,7 @@ h1 {
                  5.5px 5.5px black,
                  10px 8px 8px black;
 }
-#password_input {
+#passwordInput {
     position: absolute;
     background-color: silver;
     width: 300px;
@@ -204,7 +204,7 @@ p {
     color: white;
 }
 @media only screen and (max-width: 580px) {
-    .input {
+    .inputBlock {
         position: relative;
         text-align: center;
         top: 190px;
@@ -217,7 +217,7 @@ p {
         left: 0px;
         font-size: 40px;
     }
-    #password_input {
+    #passwordInput {
         position: absolute;
         width: 250px;
         font-size: 20px;
@@ -292,7 +292,7 @@ p {
     }
 }
 @media only screen and (max-width: 470px) {
-    .input {
+    .inputBlock {
         position: relative;
         text-align: center;
         top: 190px;
@@ -305,7 +305,7 @@ p {
         left: 0px;
         font-size: 30px;
     }
-    #password_input {
+    #passwordInput {
         position: absolute;
         width: 200px;
         font-size: 20px;
@@ -385,7 +385,7 @@ p {
     }
 }
 @media only screen and (max-width: 380px) {
-    .input {
+    .inputBlock {
         position: relative;
         text-align: center;
         top: 190px;
@@ -398,7 +398,7 @@ p {
         left: -3px;
         font-size: 24px;
     }
-    #password_input {
+    #passwordInput {
         position: absolute;
         width: 180px;
         font-size: 20px;
@@ -471,7 +471,7 @@ p {
     }
 }
 @media only screen and (max-width: 300px) {
-    .input {
+    .inputBlock {
         position: relative;
         text-align: center;
         top: 190px;
@@ -484,7 +484,7 @@ p {
         left: -3px;
         font-size: 20px;
     }
-    #password_input {
+    #passwordInput {
         position: absolute;
         width: 120px;
         font-size: 13px;
@@ -557,7 +557,7 @@ p {
     }
 }
 @media only screen and (max-width: 260px) {
-    .input {
+    .inputBlock {
         position: relative;
         text-align: center;
         top: 190px;
@@ -570,7 +570,7 @@ p {
         left: -3px;
         font-size: 15px;
     }
-    #password_input {
+    #passwordInput {
         position: absolute;
         width: 80px;
         font-size: 11px;
