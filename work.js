@@ -1,6 +1,6 @@
 var s="Low";
-var x = document.getElementById("password_input");
-var y = document.getElementById("icon");
+var x = document.getElementById("passwordInput");
+var y = document.getElementById("toggleIcon");
 var z = document.getElementById('result');
 y.innerHTML += `<i class="fa fa-eye-slash"></i>`;
 function password_submitted(){
